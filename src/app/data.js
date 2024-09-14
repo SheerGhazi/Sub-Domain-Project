@@ -119,5 +119,20 @@ export const services = [
     description:
       "Affordable sink repair in near me. Contact (877) 674-0877 for sink repair services near you..",
   },
+  {
+    title: "Sink Repair",
+    description:
+      "Affordable sink repair in near me. Contact (877) 674-0877 for sink repair services near you..",
+  },
+  {
+    title: "Sink Repair",
+    description:
+      "Affordable sink repair in near me. Contact (877) 674-0877 for sink repair services near you..",
+  },
+  {
+    title: "Sink Repair",
+    description:
+      "Affordable sink repair in near me. Contact (877) 674-0877 for sink repair services near you..",
+  },
  
 ];
