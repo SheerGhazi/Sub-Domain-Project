@@ -1,0 +1,25 @@
+.count-fst div:last-child {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+    /* text-align: center; */
+    color: white;
+    /* opacity: 0.8; */
+  }
+  
+  .count-fst {
+    position: relative;
+  }
+  
+
+
+  .goto.animated {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    max-width: 95%;
+  }
