@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bannner-image': "url('./src/assets/Images/banner-bg.jpg')", // Path relative to the `public` folder
+      },
+
+      colors:{
+       'orange-clr': "#ff7033",
+      },
+    },
   },
   plugins: [],
 }
