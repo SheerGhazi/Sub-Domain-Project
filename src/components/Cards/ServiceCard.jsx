@@ -6,7 +6,7 @@ const ServiceCard = ({ title, description }) => {
     <div className="bg-white w-full h-auto  py-16 px-3 my-4 border border-gray-300 rounded-sm md:px-9 ">
       <div className="card flex flex-col justify-center items-center text-center gap-8">
         <h3 className="font-bold text-xl">{title} Near Me</h3>
-        <p className="text-[#a43434]">{description}</p>
+        <p className="text-[#333333]">{description}</p>
 
         <a href="tel:(877) 674-0877">
           <button className="flex justify-center items-center px-4 py-2 border border-gray-300 rounded-sm gap-2   ">
