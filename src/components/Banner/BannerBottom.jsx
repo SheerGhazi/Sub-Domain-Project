@@ -11,7 +11,7 @@ const BannerBottom = () => {
             <img src={calender} alt="" />
           </div>
           <div id="numbers">
-            <span className="count">86</span> <span>+</span>
+            <span className="count">866</span> <span>+</span>
             <div>Services Providers</div>
           </div>
         </div>
@@ -20,7 +20,7 @@ const BannerBottom = () => {
             <img src={calender} alt="" />
           </div>
           <div id="numbers">
-            <span className="count">150</span> <span>+</span>
+            <span className="count">1500</span> <span>+</span>
             <div className="num-all">Order Served</div>
           </div>
         </div>
@@ -30,7 +30,7 @@ const BannerBottom = () => {
             <img src={calender} alt="" />
           </div>
           <div id="numbers">
-            <span className="count">45</span> <span>+</span>
+            <span className="count">455</span> <span>+</span>
             <div className="num-all">5 Start Received</div>
           </div>
         </div>

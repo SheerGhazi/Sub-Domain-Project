@@ -4,7 +4,7 @@ import FooterBottom from './FooterBottom'
 
 const Footer = () => {
   return (
-    <div>
+    <div >
       <FooterTop/>
       <FooterBottom/>
     </div>

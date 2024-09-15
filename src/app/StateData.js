@@ -3,16 +3,16 @@ export const StateData = [
         state : "Alabama",
     },
     {
-        state : "Alabama",
+        state : "Alaska",
     },
     {
-        state : "Alabama",
+        state : "Arizona",
     },
     {
-        state : "Alabama",
+        state : "Arkansas",
     },
     {
-        state : "Alabama",
+        state : "California",
     },
     {
         state : "Alabama",

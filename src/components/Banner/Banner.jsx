@@ -132,7 +132,7 @@ const Banner = () => {
             </div>
 
             {/* Button Row - Spans 2 columns */}
-            <button className="col-span-2 font-medium text-base bg-black text-white p-2 rounded mt-4 ">
+            <button className="col-span-2 font-medium text-base bg-black hover:bg-gray-900 text-white p-2 rounded mt-4 ">
               Submit
             </button>
           </div>

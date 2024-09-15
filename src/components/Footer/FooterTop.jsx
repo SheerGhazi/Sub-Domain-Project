@@ -11,7 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const FooterTop = () => {
   return (
-    <div className="w-full h-auto bg-[#0e3c39] px-4 py-20 lg:flex">
+    <div className="w-full h-auto bg-[#0e3c39] px-4 py-20 lg:flex px-7">
       <div className="pb-10 space-y-5 lg:w-1/3">
         <div className="icon">
           <img className="h-16 w-36" src={Footer_Icon} alt="" />
@@ -36,10 +36,10 @@ const FooterTop = () => {
             </div>
             <div className="Phone flex gap-4 ">
               <div className="Phone-icon">
-                <FaPhoneVolume  size={20}  color="#ff7033"/>
+                <FaPhoneVolume  size={18}  color="#ff7033"/>
               </div>
               <div className="Phone-txt text-white font-normal text-base">
-                <a href="#">(877) 674-0877</a>
+                <a className="hover:text-[#ff7033]"  href="#">(877) 674-0877</a>
               </div>
             </div>
             <div className="Message flex gap-4 ">
@@ -47,7 +47,7 @@ const FooterTop = () => {
                 <LuMailPlus size={20} color="#ff7033" />
               </div>
               <div className="Message-txt text-white font-normal text-base">
-                <a href="#">info@bestplumberbradford.com</a>
+                <a className="hover:text-[#ff7033]" href="#">info@bestplumberbradford.com</a>
               </div>
             </div>
             <div className="Time flex gap-4 ">
@@ -79,7 +79,7 @@ const FooterTop = () => {
         </div>
         <div className="subscribe-btn pb-5">
           {" "}
-          <button className="col-span-2 font-medium text-base bg-[#ff7033] text-white p-3 w-full rounded mt-4 ">
+          <button className="col-span-2 font-medium text-base bg-[#ff7033] hover:bg-orange-400 text-white p-3 w-full rounded mt-4 ">
            Subscribe Now
           </button>
         </div>
@@ -88,28 +88,28 @@ const FooterTop = () => {
             {" "}
             <a href="#">
               {" "}
-              <FaFacebookF size={20} color="#ff7033" />{" "}
+              <FaFacebookF size={20} className="lg:size-4" color="#ff7033" />{" "}
             </a>
           </div>
           <div className="insta-icon">
             {" "}
             <a href="#">
               {" "}
-              <IoLogoInstagram  size={20} color="#ff7033" />{" "}
+              <IoLogoInstagram  size={20}  className="lg:size-4"  color="#ff7033" />{" "}
             </a>
           </div>
           <div className="twitter-icon">
             {" "}
             <a href="#">
               {" "}
-              <FaTwitter size={20}  color="#ff7033" />{" "}
+              <FaTwitter size={20}  className="lg:size-4"   color="#ff7033" />{" "}
             </a>
           </div>
           <div className="linkedin-icon">
             {" "}
             <a href="#">
               {" "}
-              <FaLinkedinIn size={20}  color="#ff7033" />{" "}
+              <FaLinkedinIn size={20}   className="lg:size-4"  color="#ff7033" />{" "}
             </a>{" "}
           </div>
         </div>
